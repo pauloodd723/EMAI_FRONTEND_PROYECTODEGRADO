@@ -1,6 +1,6 @@
 # EMAI-APP — Frontend
 
-App móvil en React Native + Expo para el sistema de seguimiento de exámenes médicos e institucionales.
+App móvil en React Native + Expo para el sistema de seguimiento de exámenes institucionales.
 
 ## Stack
 - **Expo SDK 54** — plataforma de desarrollo móvil
