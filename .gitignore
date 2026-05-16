@@ -1,0 +1,57 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Expo ─────────────────────────────────────────────────────────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ─── Native (generated) ───────────────────────────────────────────────────────
+/ios
+/android
+.kotlin/
+
+# ─── Signing / certificates ───────────────────────────────────────────────────
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# ─── Metro ────────────────────────────────────────────────────────────────────
+.metro-health-check*
+
+# ─── Debug logs ───────────────────────────────────────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+logs/
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env*.local
+.env.production
+
+# ─── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Editores ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ─── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
