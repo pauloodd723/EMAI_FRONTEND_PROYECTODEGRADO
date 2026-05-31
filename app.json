@@ -1,6 +1,5 @@
 {
   "expo": {
-    
     "name": "emai-app-sdk54",
     "slug": "emai-app-sdk54",
     "version": "1.0.0",
@@ -17,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.emai.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -34,6 +34,12 @@
     "plugins": [
       "expo-router",
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fe99c55b-0ec7-4b3f-aa25-3768650ab6b6"
+      }
+    }
   }
 }

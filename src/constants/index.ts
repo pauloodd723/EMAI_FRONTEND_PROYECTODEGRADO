@@ -36,7 +36,7 @@ export const STORAGE_KEYS = {
 };
 
 // ─── API ──────────────────────────────────────────────────────────────────────
-export const API_BASE_URL = 'https://trisyllabical-alphonse-unsupplicatingly.ngrok-free.dev/api/v1';
+export const API_BASE_URL = 'https://emaibackendproyectodegrado-production.up.railway.app';
 
 // ─── ROLES INTERNOS DIRECTIVO ─────────────────────────────────────────────────
 export const DIRECTIVO_SUB_ROLES = [
